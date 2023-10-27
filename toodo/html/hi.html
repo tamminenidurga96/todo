@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Example</title>
+</head>
+<body>
+    <button id="tammineni">Click Me</button>
+    <p id= "outout"></p>
+
+    <script>
+        // Select the button element by its ID
+        const tammineni = document.getElementById('tammineni');
+        const output = document.getElementById('output')
+
+        // Add an event listener for the "click" event
+        tammineni.addEventListener('click', function() {
+            output.textContent = 'hello, world';
+            //alert("Button clicked!");
+        });
+    </script>
+</body>
+</html>
